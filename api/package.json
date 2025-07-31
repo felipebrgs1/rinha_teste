@@ -1,0 +1,21 @@
+{
+    "name": "rinha-api",
+    "version": "0.1.0",
+    "type": "module",
+    "scripts": {
+        "dev": "bun --hot src/index.ts",
+        "build": "tsc -p tsconfig.json",
+        "start": "node dist/index.js",
+        "lint": "echo 'no linter configured'"
+    },
+    "dependencies": {
+        "@types/bun": "^1.2.19",
+        "bun": "^1.2.19",
+        "hono": "4.8.10",
+        "ioredis": "5.7.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.11.30",
+        "typescript": "5.9.2"
+    }
+}
